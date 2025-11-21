@@ -1,4 +1,5 @@
 import Button from "../ui/Button"
+import SmallButton from "../ui/SmallButton"
 
 
 export default function Project({ data }) {
@@ -26,10 +27,11 @@ export default function Project({ data }) {
                 <img src={prj.lng4} />
               </div>
 
-              <div className="self-end">
-                <Button href={prj.link} lable="Preview" />
-               
+             
 
+              <div className="self-end">
+
+                <SmallButton href={prj.link} lable="Preview"/>
               </div>
 
             </div>

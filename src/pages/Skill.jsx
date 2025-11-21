@@ -30,7 +30,7 @@ export default function Skill({ data }) {
 
     return (
 
-        <section className='pt-28'>
+        <section className='pt-16 lg:pt-28'>
             <div >
                 <div className='mx-8 lg:mx-10'>
 
