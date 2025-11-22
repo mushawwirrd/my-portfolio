@@ -1,4 +1,4 @@
-import Button from "../ui/Button"
+import { motion, useInView } from "framer-motion"
 import SmallButton from "../ui/SmallButton"
 
 

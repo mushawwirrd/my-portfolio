@@ -44,7 +44,7 @@ export default function Experience({ data }) {
                     </div>
 
                     <div className=" flex justify-center mt-10">
-                        <OutLineButton icon2={<ArrowUpRightIcon />} href="" lable="My Resume" />
+                        <OutLineButton icon2={<ArrowUpRightIcon />} href="https://drive.google.com/file/d/1L_9BVBXeRk1qUylPYyfN0jveGLbi-TZY/view?usp=drivesdk" lable="My Resume" />
 
                     </div>
 
