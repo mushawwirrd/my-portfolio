@@ -1,0 +1,139 @@
+{
+    "main": {
+        "name": "Mushawwir",
+        "role": "Frontend",
+        "photo": "/mushawwir.jpg",
+        "desc": "I'm a Frontend Developer with strong design sense,",
+        "desc2": "turning ideas into functional, intuitive, and user focused interfaces.",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "/linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "/github-otln.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "/behance.svg"
+            }
+        ]
+    },
+    "mySkill": {
+        "skill": [
+            {
+                "skillName": "Javascript",
+                "skillLogo": "/javascript.svg"
+            },
+            {
+                "skillName": "Tailwindcss",
+                "skillLogo": "/tailwindcss.svg"
+            },
+            {
+                "skillName": "React.js",
+                "skillLogo": "/react.svg"
+            },
+            {
+                "skillName": "Node.js",
+                "skillLogo": "/nodejs.svg"
+            },
+            {
+                "skillName": "Express.js",
+                "skillLogo": "/expressjs.svg"
+            }
+        ]
+    },
+    "about": {
+        "prg1": "I’m a Frontend Developer with a strong design sense and design mindset.",
+        "prg2": "I started my career as a UI/UX designer, then realized I enjoyed building what I designed even more, which led me to transition into frontend development.",
+        "prg3": "My experience in UI/UX helps me bridge the gap between design and engineering through usability thinking, coding, and product perspective.",
+        "prg4": "Most of my experience comes from a startup environment, which makes me comfortable working fast, iteratively, and collaboratively.",
+        "prg5": "During this transition, my skills developed in JavaScript, React, Tailwind CSS, responsive web, fetch API/data, Node.js, Express, Sequelize, MySQL, and RESTful API."
+    },
+    "myExperience": {
+        "experience": [
+            {
+                "id": 1,
+                "position": "Frontend Developer",
+                "company": "Freelance",
+                "date": "Nov 2025 - Present",
+                "do2": "Develope 5+ web including, responsive landing page, responsive job portal website, 3 table web pages, and dashboard page yang cepat dan tanpilan yang clean menggunakan html, css, and bootstrap frameork."
+            },
+            {
+                "id": 2,
+                "position": "UI Designer",
+                "company": "Woo-Hoo",
+                "date": "Aug 2021 - Jul 2022",
+                "do1": " Collaborate with the team to create 20+ design system components including style guide and component library by considering auto layout, naming components, and variants that successfully created design become consistent, structured and team work more efficiently.",
+                "do2": " Composed an interactive Figma prototype and Figma mirror prototype by connecting 100+ frames and creating 15+ animations that engage users with the app design"
+            },
+            {
+                "id": 3,
+                "position": "UI/UX Designer",
+                "company": "LOKAL",
+                "date": "May - Aug 2021",
+                "do1": " Redesigned and improved the user experience of mobile apps and landing pages by adjusting design components, creating user flows, user journey maps, low fidelity designs, and collaborating with the digital marketing team which successfully increased website visits by 11% and app downloads by 100+",
+                "do2": " Collaborate with the developer team to discuss the possibility of implementing the design into code."
+            },
+            {
+                "id": 4,
+                "position": "Frontend Developer",
+                "company": "LOKAL",
+                "date": "May - Aug 2021",
+                "do2": "Develope 5+ web including, responsive landing page, responsive job portal website, 3 table web pages, and dashboard page yang cepat dan tanpilan yang clean menggunakan html, css, and bootstrap frameork."
+            }
+        ]
+    },
+    "port": {
+        "project": [
+            {
+                "title": "Fina",
+                "image": "/fina.jpg",
+                "detail": "Financial health diagnosis",
+                "type": "Frontend",
+                "lng1": "/react.svg",
+                "lng2": "/tailwindcss.svg",
+                "link": "https://fina-finance.netlify.app/"
+            },
+            {
+                "title": "Nancy",
+                "image": "/nancy.jpg",
+                "detail": "More detail financial health diagnosis",
+                "type": "Frontend",
+                "lng1": "/react.svg",
+                "lng2": "/tailwindcss.svg",
+                "link": "https://nancy-finance.netlify.app/"
+            },
+            {
+                "title": "Docto",
+                "image": "/hospital.jpg",
+                "detail": "Look at the doctor's schedule",
+                "type": "Fullstack",
+                "lng1": "/react.svg",
+                "lng2": "/tailwindcss.svg",
+                "lng3": "/nodejs.svg",
+                "lng4": "/expressjs.svg",
+                "link": "https://github.com/mushawwirrd/inch-backend"
+            }
+        ]
+    },
+    "footer": {
+        "copy": "©2025 All Rights Reserved",
+        "message": "Made with 💙 by",
+        "social": [
+            {
+                "socialName": "LinkedIn",
+                "socialIcon": "/linkedin.svg"
+            },
+            {
+                "socialName": "Github",
+                "socialIcon": "/github-otln.svg"
+            },
+            {
+                "socialName": "Behance",
+                "socialIcon": "/behance.svg"
+            }
+        ]
+    }
+}
