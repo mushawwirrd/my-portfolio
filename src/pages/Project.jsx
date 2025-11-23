@@ -1,43 +1,83 @@
-import { motion, useInView } from "framer-motion"
-import SmallButton from "../ui/SmallButton"
+import { motion } from "motion/react"
 
+import SmallButton from "../ui/SmallButton"
+import Button from "../ui/Button"
 
 export default function Project({ data }) {
   if (!data) return null
 
+
+
   const myProject =
     <div className="flex flex-wrap justify-center ">
 
-      {data.project.map(prj => (
+      {data.project.map((prj, i) => (
+
+
         <div className="lg:w-[550px] mt-6 lg:mr-6 ">
 
-          <div className="rounded-xl lg:rounded-3xl  shadow-lg overflow-hidden">
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, y: 13 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            className="rounded-xl lg:rounded-3xl shadow-lg overflow-hidden">
 
             <img src={prj.image} alt={prj.title} />
 
-            <div className="flex flex-col items-start p-6 lg:p-7">
+            <div className="flex flex-col items-start p-5 lg:p-7">
 
-              <h1 className="text-2xl font-bold mb-2">{prj.title}</h1>
-              <p className="py-0.5 px-2.5 border rounded-full mb-4 w-fit ">{prj.type}</p>
+              <motion.h1
+                key={i}
+                initial={{ opacity: 0, y: -13 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+                className="text-2xl font-bold mb-2">{prj.title}</motion.h1>
+              <motion.p
+                key={i}
+                initial={{ opacity: 0, y: 13 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+                className="py-0.5 px-2.5 border rounded-full mb-4 w-fit ">{prj.type}</motion.p>
 
-              <div className="flex gap-3 w-7 lg:w-8 mb-0.5">
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 13 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+                className="flex gap-3 w-7 lg:w-8 mb-0.5">
                 <img src={prj.lng1} />
                 <img src={prj.lng2} />
                 <img src={prj.lng3} />
                 <img src={prj.lng4} />
-              </div>
+              </motion.div>
 
-              <div className="self-end">
-                <SmallButton href={prj.link} lable="Preview"/>
-              </div>
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, x: -13 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
+                viewport={{ once: true }}
+                className="self-end">
+                <Button href={prj.link} lable="Preview" />
+                {/* <SmallButton href={prj.link} lable="Preview" /> */}
+              </motion.div>
 
             </div>
 
-          </div>
+          </motion.div>
+
 
         </div>
-      ))}
-    </div>
+
+
+      ))
+      }
+    </div >
 
   return (
 

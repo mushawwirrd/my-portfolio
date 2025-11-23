@@ -2,21 +2,21 @@
     "main": {
         "name": "Mushawwir",
         "role": "Frontend",
-        "photo": "/mushawwir.jpg",
+        "photo": "mushawwir.jpg",
         "desc": "I'm a Frontend Developer with strong design sense,",
         "desc2": "turning ideas into functional, intuitive, and user focused interfaces.",
         "social": [
             {
                 "socialName": "LinkedIn",
-                "socialIcon": "/linkedin.svg"
+                "socialIcon": "linkedin.svg"
             },
             {
                 "socialName": "Github",
-                "socialIcon": "/github-otln.svg"
+                "socialIcon": "github-otln.svg"
             },
             {
                 "socialName": "Behance",
-                "socialIcon": "/behance.svg"
+                "socialIcon": "behance.svg"
             }
         ]
     },
@@ -24,23 +24,23 @@
         "skill": [
             {
                 "skillName": "Javascript",
-                "skillLogo": "/javascript.svg"
+                "skillLogo": "javascript.svg"
             },
             {
                 "skillName": "Tailwindcss",
-                "skillLogo": "/tailwindcss.svg"
+                "skillLogo": "tailwindcss.svg"
             },
             {
                 "skillName": "React.js",
-                "skillLogo": "/react.svg"
+                "skillLogo": "react.svg"
             },
             {
                 "skillName": "Node.js",
-                "skillLogo": "/nodejs.svg"
+                "skillLogo": "nodejs.svg"
             },
             {
                 "skillName": "Express.js",
-                "skillLogo": "/expressjs.svg"
+                "skillLogo": "expressjs.svg"
             }
         ]
     },
@@ -89,31 +89,31 @@
         "project": [
             {
                 "title": "Fina",
-                "image": "/fina.jpg",
+                "image": "fina.jpg",
                 "detail": "Financial health diagnosis",
                 "type": "Frontend",
-                "lng1": "/react.svg",
-                "lng2": "/tailwindcss.svg",
+                "lng1": "react.svg",
+                "lng2": "tailwindcss.svg",
                 "link": "https://fina-finance.netlify.app/"
             },
             {
                 "title": "Nancy",
-                "image": "/nancy.jpg",
+                "image": "nancy.jpg",
                 "detail": "More detail financial health diagnosis",
                 "type": "Frontend",
-                "lng1": "/react.svg",
-                "lng2": "/tailwindcss.svg",
+                "lng1": "react.svg",
+                "lng2": "tailwindcss.svg",
                 "link": "https://nancy-finance.netlify.app/"
             },
             {
                 "title": "Docto",
-                "image": "/hospital.jpg",
+                "image": "hospital.jpg",
                 "detail": "Look at the doctor's schedule",
                 "type": "Fullstack",
-                "lng1": "/react.svg",
-                "lng2": "/tailwindcss.svg",
-                "lng3": "/nodejs.svg",
-                "lng4": "/expressjs.svg",
+                "lng1": "react.svg",
+                "lng2": "tailwindcss.svg",
+                "lng3": "nodejs.svg",
+                "lng4": "expressjs.svg",
                 "link": "https://github.com/mushawwirrd/inch-backend"
             }
         ]
@@ -124,15 +124,15 @@
         "social": [
             {
                 "socialName": "LinkedIn",
-                "socialIcon": "/linkedin.svg"
+                "socialIcon": "linkedin.svg"
             },
             {
                 "socialName": "Github",
-                "socialIcon": "/github-otln.svg"
+                "socialIcon": "github-otln.svg"
             },
             {
                 "socialName": "Behance",
-                "socialIcon": "/behance.svg"
+                "socialIcon": "behance.svg"
             }
         ]
     }

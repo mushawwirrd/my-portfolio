@@ -15,7 +15,7 @@ function App() {
   const [data, setData] = useState()
 
   useEffect(() => {
-    fetch("/port.json")
+    fetch(`${import.meta.env.BASE_URL}port.json`)
       .then(res => res.json())
       .then(result => setData(result))
   }, [])
@@ -31,7 +31,7 @@ function App() {
 
           <div>
             <a href="#hero">
-              <img src="/muru.png" alt="" className="w-16" />
+              <img src="muru.png" alt="muru" className="w-16" />
             </a>
           </div>
 
