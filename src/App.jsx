@@ -52,12 +52,12 @@ function App() {
       )}
 
       <Hero data={data.main} />
-       <Skill data={data.mySkill} />
-    <AboutMe data={data.about} />
-       <Experience data={data.myExperience} />
+      <Skill data={data.mySkill} />
+      <AboutMe data={data.about} />
+      <Experience data={data.myExperience} />
       <Project data={data.port} />
 
-       <Footer data={data.footer} />
+      <Footer data={data.footer} />
 
     </div>
 
